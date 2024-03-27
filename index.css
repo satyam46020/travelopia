@@ -72,21 +72,11 @@ footer {
 }
 
 .footer-content {
-    display: f0lex;
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     color: white;
-}
-
-@media (max-width: 768px) {
-    header {
-        font-size: 1em; 
-    }
-
-    #overlay-title {
-        font-size: 1.125em; 
-    }
 }
 
 .alert-popup {
@@ -120,6 +110,16 @@ footer {
     transition: background-color 0.3s;
 }
 
+@media (max-width: 768px) {
+    header {
+        font-size: 1em; 
+    }
+
+    #overlay-title {
+        font-size: 1.125em; 
+    }
+}
+
 @media (max-width: 480px) {
     header {
         font-size: 0.875em; 
@@ -129,4 +129,3 @@ footer {
         font-size: 1em;
     }
 }
-

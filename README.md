@@ -1,6 +1,6 @@
 # Travelopia
 
-[Click here to visit site](/)
+[Click here to visit site](https://app.netlify.com/sites/papaya-wisp-9e030b/deploys/6604659266e1ec36cbedce7d/)
 
 ## CSS Styles for Travelopia
 
