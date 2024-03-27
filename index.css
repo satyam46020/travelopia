@@ -78,3 +78,57 @@ footer {
     color: white;
 }
 
+@media (max-width: 768px) {
+    header {
+        font-size: 1em; 
+    }
+
+    #overlay-title {
+        font-size: 1.125em; 
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 0.875em; 
+    }
+
+    #overlay-title {
+        font-size: 1em;
+    }
+}
+
+.alert-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    display: none; 
+}
+
+.alert-popup-content {
+    text-align: center;
+}
+
+.alert-popup-buttons {
+    margin-top: 20px;
+}
+
+.alert-popup-buttons button {
+    padding: 10px 20px;
+    background-color: rgb(45,61,39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.alert-popup-buttons button:hover {
+    background-color: rgb(45,61,39);
+}
