@@ -52,7 +52,8 @@ header {
     align-items: center;
     justify-content: center;
     text-align: center;
-    transition: background-color 0.5s ease, opacity 0.5s ease;
+    transition: background-color 0.5s ease,
+                opacity 0.5s ease;
 }
 
 #overlay-title {
@@ -71,7 +72,7 @@ footer {
 }
 
 .footer-content {
-    display: flex;
+    display: f0lex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -85,16 +86,6 @@ footer {
 
     #overlay-title {
         font-size: 1.125em; 
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        font-size: 0.875em; 
-    }
-
-    #overlay-title {
-        font-size: 1em;
     }
 }
 
@@ -128,3 +119,14 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+@media (max-width: 480px) {
+    header {
+        font-size: 0.875em; 
+    }
+
+    #overlay-title {
+        font-size: 1em;
+    }
+}
+
