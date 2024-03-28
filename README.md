@@ -35,7 +35,9 @@ style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 ## Tech Stack
 
 **HTML**: Provides structural foundation.
+
 **CSS**: Handles UI styling for appealing presentation.
+
 **JavaScript**: Implements interactive features.
 
 ## Design Elements
