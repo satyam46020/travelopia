@@ -1,89 +1,58 @@
 # Travelopia
 
-[Click here to visit site](https://app.netlify.com/sites/papaya-wisp-9e030b/deploys/6604659266e1ec36cbedce7d/)
+A streamlined single-page web element that offers an immersive user experience for exploring travel options. With a sleek 100px navbar, a matching footer, captivating image overlays, and a click-triggered alert button, it's designed for responsiveness and ease of use. Built with HTML, CSS, and JavaScript.
 
-## CSS Styles for Travelopia
+[Click here to visit site](https://6604659266e1ec36cbedce7d--papaya-wisp-9e030b.netlify.app/)
 
-### Global Styles
+## How to Use
 
-![Global](./images/Global.png)
+To run this project locally:
 
-These styles ensure that there is no default margin or padding on the body and HTML elements, the component takes up the full height of the viewport and also applies a font family.
+1. Clone this repository to your local storage.
+2. Open the `index.html` file in your preferred web browser.
+3. Explore the Travelopia experience right from your device.
 
-### Container Styles
+### Screenshots
 
-![Container](./images/Container.png)
+#### Mobile View
+<img src="./images/Mobile_screen.png" alt="Mobile View" width="300" 
+style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
-This sets up a flex container with a column layout, and it ensures the container takes at least the full height of the viewport.
+#### Desktop View
+<img src="./images/Full_Screen.png" alt="Desktop View" style="box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);">
 
-### Header Styles
+#### Pop-up Alert
+<img src="./images//Popup.png" alt="Pop-up Alert" style="box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);">
 
-![Header](./images/Header.png)
+## Features
 
-Styles for the header, including a fixed height, centered content and text, and a black background color.
+**Navbar and Footer**: Consistent 100px height for easy navigation and information accessibility.
+**Dynamic Design**: Fluid layout adjustments for seamless browsing on different screens.
+**Image with Overlay Text**: Enhances visual appeal with translucent text overlay.
+**Alert Button**: Instant interaction with clickable alert feature.
+**Title and Banner**: Centered elements for clear content focus.
 
-### Header Content Styles
+## Tech Stack
 
-![Header Content](./images//Header_content.png)
+**HTML**: Provides structural foundation.
+**CSS**: Handles UI styling for appealing presentation.
+**JavaScript**: Implements interactive features.
 
-Styles for the content inside the header ensures the content doesn't exceed the width of its container Centers the content horizontally and sets the text color to white.
+## Design Elements
 
-### Image Container Styles
+**Media Queries**:
+Ensures responsiveness across various screen sizes.
 
-![Image Div](./images/Image_container.png)
+**Keyframes**:
+Creates captivating animations for enhanced user engagement.
 
-Allows the container to expand to fill remaining space. Establishes a positioning context for absolutely positioned elements and hides any overflow content.
+**Overlay**:
+Improves image readability and focus with translucent layer.
 
-### Image Styles
+**Responsive Design**:
+Adapts layout for optimal viewing on diverse devices.
 
-![Image](./images/Img.png)
+**Fonts & Icons**:
+Enhances typography and visual elements for modern design. 
 
-Ensures the image takes up the full width and height of its container while maintaining its aspect ratio.
-
-### Image Overlay Styles
-
-![Image Overlay](./images/img_overlay.png)
-
-Positions the overlay over the image. Sets a semi-transparent black background color. Centers content both vertically and horizontally and applies a smooth transition effect.
-
-## Overlay Text Styles
-
-![Overlay Title](./images/Overlay_title.png)
-
-Styles for the overlay title, ensuring white text color, adds bottom margin for spacing.
-
-## Button Styles
-
-![Button](./images/button.png)
-Changes the cursor to pointer on hover and also applies a font family.
-
-### Footer Styles
-
-![Footer](./images/footer.png)
-
-Styles for the footer, with a fixed height and a black background color.
-
-### Footer Content Styles
-
-![Footer Content](./images/footer_content.png)
-
-Aligns content horizontally with space around each item. Centers content vertically. Sets the text color to white.
-
-### Alert Popup Styles
-
-![Alert Popup](./images/alert_popup.png)
-
-.alert-popup: Styles the container for the popup with fixed positioning at the center of the viewport, a white background, padding, border radius, box shadow, and hidden by default.
-
-.alert-popup-content: Centers the content of the popup.
-
-.alert-popup-buttons: Adds margin above the buttons within the popup.
-
-.alert-popup-buttons button: Styles the buttons with padding, background color, text color, border radius, cursor, and a transition effect for hover.
-
-### Responsive Styles
-
-![Media Query](./images/media_queries.png)
-
-Adjusts font sizes for the header and overlay title on different screen sizes. For 768px and below: Sets the font size of the header to 1em and the overlay title to 1.125em and for 480px and below: Further reduces the font size of the header to 0.875em while keeping the overlay title at 1em.
 
